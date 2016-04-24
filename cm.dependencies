@@ -4,7 +4,7 @@
    "target_path": "device/qcom/common"
  },
  {
-   "repository": "android_kernel_xiaomi_cancro",
-   "target_path": "kernel/xiaomi/cancro"
+   "repository": "android_kernel_iuni_i1",
+   "target_path": "kernel/iuni/i1"
  }
 ]
