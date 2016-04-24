@@ -7,7 +7,7 @@ Basic   | IUNI I1                           |
 CPU     | 2.3GHz Quad-Core MSM8974AA-PRO    |
 GPU     | Adreno 330                        |
 Memory  | 2GB RAM                           |
-Shipped Android 4.4.4                       |
+Shipped | Android 4.4.4                     |
 Storage | 32GB                              |
 Battery | 3000 mAh                          |
 Display | 5.2" 1920 x 1080 px               |
