@@ -75,11 +75,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     memset(resultpropkeya, 0, 50);
     toOrigin(propkey1, resultpropkeya);
     property_get(resultpropkeya, resultvalue1);
-    if(strncmp(resultvalue1, "3", 1) == 0 && strlen(resultvalue1) == 2) {
-        property_set("ro.product.model", "MI 3W");
-    } else if (strncmp(resultvalue1, "4", 1) == 0 && strlen(resultvalue1) == 2) {
-        property_set("ro.product.model", "MI 4");
-    }
-    property_set("ro.build.product", "cancro");
-    property_set("ro.product.device", "cancro");
+    property_set("ro.build.product", "i1");
+    property_set("ro.product.device", "i1");
 }
