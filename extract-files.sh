@@ -2,8 +2,8 @@
 
 set -e
 
-export VENDOR=xiaomi
-export DEVICE=cancro
+export VENDOR=iuni
+export DEVICE=i1
 
 while getopts ":hd:" options
 do
