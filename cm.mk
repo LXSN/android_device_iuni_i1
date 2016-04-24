@@ -20,25 +20,15 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from cancro device
-$(call inherit-product, device/xiaomi/cancro/cancro.mk)
-
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, device/IUNI/i1/i1.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 
-PRODUCT_NAME := cm_cancro
-PRODUCT_DEVICE := cancro
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := MI Cancro
+PRODUCT_NAME := cm_i1
+PRODUCT_DEVICE := msm8974
+PRODUCT_BRAND := IUNI
+PRODUCT_MANUFACTURER := IUNI
+PRODUCT_MODEL := IUNI i1
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Device prop
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="cancro" \
-    PRODUCT_NAME="cancro" \
-    BUILD_FINGERPRINT="Xiaomi/cancro/cancro:5.1.1/LMY48M/5.9.17:userdebug/test-keys" \
-    PRIVATE_BUILD_DESC="cancro-userdebug 5.1.1 LMY48M 5.9.17 test-keys"
+PRODUCT_GMS_CLIENTID_BASE := android-IUNI
